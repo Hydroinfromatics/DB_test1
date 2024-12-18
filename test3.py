@@ -16,6 +16,9 @@ db_config = {
     "ssl_ca": "ca.pem"  # Path to your CA certificate
 }
 
+
+def home():
+    return "Flask app is running! Use /users endpoint."
 # Function to connect to the database
 def connect_to_db():
     try:
