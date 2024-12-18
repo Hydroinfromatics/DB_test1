@@ -56,6 +56,12 @@ def create_table():
         if 'connection' in locals() and connection.is_connected():
             connection.close()
 
+
+
+@app.route('/')
+def home():
+    return "Flask app is running! Use /users endpoint."
+    
 # Route to add a user
 @app.route('/users', methods=['GET'])
 def add_user():
