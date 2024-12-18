@@ -13,7 +13,7 @@ db_config = {
     "password": "AVNS_aPCpCSKO_x8aBGEKcNq",
     "database": "defaultdb",
     "port": 25381,
-    "ssl_ca": r"D:\mysql\gurudev_new\ca.pem"  # Path to your CA certificate
+    "ssl_ca": "ca.pem"  # Path to your CA certificate
 }
 
 # Function to connect to the database
